@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .drop-btn{
+            background-color: rgb(0, 255, 238);
+            color: blue;
+            cursor:pointer;
+
+        }
+        .dropdown{
+            position:relative;
+            display:inline-block;
+        }
+        .dropdown-content a{
+            color: red;
+            padding:10px;
+            text-decoration: none;
+            display:block;
+        }
+        .dropdown-content{
+            position:absolute;
+            background-color: rgb(42, 161, 165);
+            z-index:1;
+            box-shadow: 5px 5px 2px yellow;
+            display:none;
+            
+        }
+        .dropdown-content a:hover{
+            background-color: bisque;
+        }
+        .dropdown:hover .dropdown-content{
+            display:block;
+        }
+        .dropdown:hover .drop-btn{
+            background-color: blueviolet;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="drop-btn">Course</button>
+        <div class="dropdown-content">
+           <a href="">Java</a>
+           <a href="">Python</a>
+           <a href="">MERN</a>
+        </div>
+    </div>
+
+
+</body>
+</html>

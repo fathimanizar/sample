@@ -1,0 +1,77 @@
+h1
+{
+  float:right;
+}
+ /* div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: height 2s; 
+    transition: width 2s, height 4s; 
+    transition-timing-function: linear;
+ }
+  div:hover {
+    height: 300px;
+    width: 300px;
+  }   */
+   
+  div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 4s; 
+
+   
+}
+
+div:hover {
+  height: 300px;
+  width:300px;
+}  
+
+.parent{
+  display: flex;  
+  flex-wrap: wrap;
+
+
+  }
+
+  .child1{
+    width:100px;
+    height:100px;
+    background-color: red;
+
+  }
+  .child2{
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    
+  }
+  .child3{
+    height:100px;
+    width:100px;
+    background-color: blue;
+  
+
+  }
+  .child4{
+    height:100px;
+    width:100px;
+    background-color: green;
+  
+  }
+
+  
+ 
+
+
+  
+  
+  
+
+    
+
+   
+  
+  
